@@ -286,7 +286,7 @@ Classe Circulo:
         Define o valor do atributo raio.
 
     Método CalcularArea():
-        Retorna o valor de π multiplicado pelo quadrado do raio.
+        Retorna o valor de π pi multiplicado ´por r^2.
 
 
 ______
