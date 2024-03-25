@@ -261,15 +261,7 @@ Classe FormaGeometrica:
     Método CalcularArea():
         # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
 
-``` Classe FormaGeometrica:
-    Atributos:
-        - cor
-
-    Método Construtor(cor):
-        Define o valor do atributo cor com o valor passado como parâmetro.
-
-    Método CalcularArea():
-        # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
+```
 
 Classe Retangulo:
     Herda de FormaGeometrica
