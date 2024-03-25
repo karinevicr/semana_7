@@ -297,7 +297,7 @@ Considere a fórumla de atualização velocidade:
 ```
     velocidade = velocidadeInicial + aceleracao*tempo
 ```
-
+Resposta:
 
 
 Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo):
