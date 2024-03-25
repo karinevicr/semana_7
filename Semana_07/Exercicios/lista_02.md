@@ -247,7 +247,7 @@ ______
 **7)** Implemente o pseudocódigo para o algoritmo representado no fluxograma da imagem.
 ![Uma imagem](assets/image.png)
 
-```
+
 ```
 Função podeVotar(idade):
     Se idade < 16 então:
@@ -266,7 +266,7 @@ Se podeVotar(idade) então:
         Escrever("Voto facultativo!")
 Senão:
     Escrever("Você não pode votar!")
-
+```
 ______
 
 **8)** Considere a implementação da classe base FormaGeometrica em um sistema de modelagem de formas geométricas. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Retangulo e Circulo, que herdam da classe FormaGeometrica, adicionando atributos específicos e métodos para calcular a área de um retângulo e de um círculo, respectivamente.
@@ -283,7 +283,7 @@ Classe FormaGeometrica:
         # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
 
 ```
-
+```
 Classe Retangulo:
     Herda de FormaGeometrica
     Atributos:
@@ -308,7 +308,7 @@ Classe Circulo:
 
     Método CalcularArea():
         Retorna o valor de π pi multiplicado ´por r^2.
-
+```
 
 ______
 
@@ -318,9 +318,10 @@ Considere a fórumla de atualização velocidade:
 ```
     velocidade = velocidadeInicial + aceleracao*tempo
 ```
+
 Resposta:
 
-
+```
 Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo):
     tempo <- 0
     velocidade <- velocidadeInicial
@@ -338,7 +339,7 @@ Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxi
         Retornar tempo
     Senão:
         Retornar "Tempo limite excedido"
-
+```
 ______
 
 **10)** Uma matriz é uma coleção bidimensional de elementos, organizados em linhas e colunas. A seguir, é fornecida a implementação da função SomaDeMatrizes(matrizA, matrizB), que calcula a soma de duas matrizes. Sua tarefa é implementar uma função semelhante, porém que realize a multiplicação de duas matrizes.
