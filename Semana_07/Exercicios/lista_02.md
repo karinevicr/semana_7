@@ -179,7 +179,7 @@ Compra 4 aprovada com limite de crédito. Saldo restante: 0
 Compra 5 aprovada. Saldo restante: -200
 
 
-B)
+X)
 Compra 1 aprovada. Saldo restante: 800
 
 Compra 2 aprovada com limite de crédito. Saldo restante: 700
