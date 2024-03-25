@@ -297,6 +297,23 @@ Considere a fórumla de atualização velocidade:
 ```
     velocidade = velocidadeInicial + aceleracao*tempo
 ```
+Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo):
+    tempo <- 0
+    velocidade <- velocidadeInicial
+    
+    Enquanto distancia > 0 E tempo <= tempoMaximo:
+        velocidade <- velocidade + aceleracao
+        
+        Se velocidade > velocidadeMaxima:
+            velocidade <- velocidadeMaxima
+        
+        distancia <- distancia - velocidade
+        tempo <- tempo + 1
+    
+    Se distancia <= 0:
+        Retornar tempo
+    Senão:
+        Retornar "Tempo limite excedido"
 
 ______
 
