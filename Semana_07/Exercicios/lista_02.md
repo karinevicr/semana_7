@@ -221,7 +221,7 @@ Escolha a opção que responde corretamente:
 
 A) Setup -> Update -> Draw
 
-B) Preload -> Create -> Update
+X) Preload -> Create -> Update
 
 C) Load -> Initialize -> Render
 
