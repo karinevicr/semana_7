@@ -250,22 +250,22 @@ ______
 
 ```
 Função podeVotar(idade):
-    Se idade < 16 então:
+    Se a idade < 16 então:
         Retornar falso
-    Senão, se idade >= 16 e idade < 18 então:
+    Se não, se a idade >= 16 e idade < 18 então:
         Retornar verdadeiro
-    Senão:
+    Se não:
         Retornar verdadeiro
 
 idade <- converterParaInteiro(receberEntrada("Insira sua idade: "))
 
 Se podeVotar(idade) então:
-    Se idade >= 18 então:
-        Escrever("Voto obrigatório!")
-    Senão:
-        Escrever("Voto facultativo!")
-Senão:
-    Escrever("Você não pode votar!")
+    Se a idade >= 18 então:
+        Mostrar("Voto obrigatório!")
+    Se não:
+        Mostrar("Voto facultativo!")
+Se não:
+    Mostar("Você não pode votar!")
 ```
 ______
 
@@ -292,10 +292,10 @@ Classe Retangulo:
 
     Método Construtor(cor, comprimento, largura):
         Chama o construtor da classe base passando cor como parâmetro.
-        Define os valores dos atributos comprimento e largura.
+        Define os valores de comprimento e largura.
 
     Método CalcularArea():
-        Retorna o produto do comprimento pela largura.
+        Mostra a multiplicação do comprimento pela largura.
 
 Classe Circulo:
     Herda de FormaGeometrica
@@ -304,10 +304,10 @@ Classe Circulo:
 
     Método Construtor(cor, raio):
         Chama o construtor da classe base passando cor como parâmetro.
-        Define o valor do atributo raio.
+        Define o valor do raio.
 
     Método CalcularArea():
-        Retorna o valor de π pi multiplicado ´por r^2.
+        Mostra de pi multiplicado por r^2.
 ```
 
 ______
@@ -337,7 +337,7 @@ Função simularCorrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxi
     
     Se distancia <= 0:
         Retornar tempo
-    Senão:
+    Se não:
         Retornar "Tempo limite excedido"
 ```
 ______
@@ -349,7 +349,7 @@ Função SomaDeMatrizes(matrizA, matrizB):
     # Verifica se as duas matrizes têm o mesmo número de linhas e colunas
     Se tamanho(matrizA) ≠ tamanho(matrizB) então:
         Retornar "As matrizes não podem ser somadas. Elas têm dimensões diferentes."
-    Senão:
+    Se não:
         linhas <- tamanho(matrizA)
         colunas <- tamanho(matrizA[0]) # Considerando que todas as linhas têm o mesmo número de colunas
         matrizResultado <- novaMatriz(linhas, colunas)
@@ -374,7 +374,7 @@ Função MultiplicacaoDeMatrizes(matrizA, matrizB):
     # Verifica se o número de colunas de matrizA é igual ao número de linhas de matrizB
     Se tamanho(matrizA[0]) ≠ tamanho(matrizB) então:
         Retornar "As matrizes não podem ser multiplicadas. O número de colunas de matrizA é diferente do número de linhas de matrizB."
-    Senão:
+    Se não:
         linhasA <- tamanho(matrizA)
         colunasA <- tamanho(matrizA[0])
         colunasB <- tamanho(matrizB[0])
